@@ -30,6 +30,6 @@ function onDeviceReady() {
     adSetter();
 }
 
-function donLoaded() {
+function domLoaded() {
     document.addEventListener("deviceready", onDeviceReady, false);
 }
